@@ -13,7 +13,7 @@ public class CustomListApplication {
 
 		// ATTN: CODERS CAMPUS REVIEWER: These variable and the addPeopleCustomList()
 		// method is used to auto generate a bunch of names
-		int autoNamesToGen = 8; // Tell me how many random names to generate.
+		int autoNamesToGen = 16; // Tell me how many random names to generate.
 		String autoFirstName = "Philip"; // Enter a random name to seed the generator.
 		addPeopleCustomList(autoNamesToGen, autoFirstName, myCustomList);
 
@@ -25,7 +25,7 @@ public class CustomListApplication {
 
 		// ATTN: CODERS CAMPUS REVIEWER: The code below is nice to have and not in the requirements.
 		// Prints the name by index number OR the that last item in the array if out of bounds.
-		int indexOfArrayToRetrive = 11;
+		int indexOfArrayToRetrive = 15;
 		if (myCustomList.get(indexOfArrayToRetrive) != null) {
 			System.out.println("The name at index " + indexOfArrayToRetrive + " is: "
 					+ myCustomList.get(indexOfArrayToRetrive).name);

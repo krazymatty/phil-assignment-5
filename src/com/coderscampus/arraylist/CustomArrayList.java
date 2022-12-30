@@ -19,7 +19,12 @@ public class CustomArrayList<T> implements CustomList<T> {
 
 	@Override
 	public int getSize() {
-		int theSize = items.length;
+		int itemCtr = 0;
+		for (Object item : items) {
+			if(item != null) 
+			itemCtr++;
+		}
+		int theSize = itemCtr;
 		return theSize;
 	}
 
